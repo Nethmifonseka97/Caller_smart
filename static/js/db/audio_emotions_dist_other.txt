@@ -1,0 +1,8 @@
+EMOTION,VALUE
+Happy,0
+Satisfied,0
+Interested,0
+Neutral,5
+Angry,1
+Unsatisfied,0
+Unhappy,0

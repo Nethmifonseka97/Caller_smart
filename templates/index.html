@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="/static/CSS/style.css">
+    <title>Simulator</title>
+
+  </head>
+  <body>
+    <a href="/">
+      <img src = "/static/CSS/images/head.png" width="100%">
+    </a>
+    <br>
+
+ {% block body %}
+
+ 
+
+      <!--
+      Audio Interview presentation
+      -->
+      <div class="column_home" id="left-col" align="center">
+       
+        <div style="width:70%; text-align:justify; align-content:center; display:inline-block;">
+          <p> Use the audio simulator to get feedback on vocal emotions </p>
+          <br>
+          <p> You will be provided a feedback on your vocal emotions such as :
+          <ul>
+            <li>Happy</li>
+            <li>Satisfied</li>
+            <li>Neutral</li>
+            <li>Disapointed</li>
+           
+          </ul>
+          <br>
+          <br>
+        </div>
+      </div>
+
+     
+
+
+  
+    
+
+     <!--
+     Audio Interview button
+     -->
+     <div class="column_home" id="left-col" align="center">
+         <form action="/audio_index" method="post" align="center">
+         <input type="submit" name="audio_index" value="Audio Interview" align="center">
+       </form>
+     </div>
+
+    <!--
+     Text Interview button
+     -->
+   
+</div>
+
+<br>
+<br>
+<br>
+
+      {# Fin du bloc "body" #}
+    {% endblock %}
+    
+
+   
+  </body>
+</html>
